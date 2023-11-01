@@ -1,0 +1,11 @@
+#LEVEL 1 TASK 1
+#String Reversing
+
+def reverse(s):
+    str = ""
+    for i in s:
+        str = i + str
+    return str
+ 
+s = input()
+print(reverse(s))
